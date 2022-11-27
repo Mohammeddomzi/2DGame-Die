@@ -420,8 +420,53 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1923341430}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ea5aed2b56b569e46952a6e9772393ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1923341432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1923341430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18f9ba9390db0464695a67d15c6d0846, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemies:
+  - {fileID: 8536741952941868563, guid: 7661e6f100a621140b411ebb597bf16c, type: 3}
+  - {fileID: 8882859838650897302, guid: 301d043a9a2a7bb44906eb2fdefa87d9, type: 3}
+  - {fileID: 8363261225706177275, guid: 108c51af55bb592499f571c46a6355f3, type: 3}
+  - {fileID: 5465357246138316031, guid: c8b6235ca60803e4e91de6806a1adb07, type: 3}
+  - {fileID: 7387360734180050257, guid: 1490323e9a0175447b206a58cee44f95, type: 3}
+  - {fileID: 4944736150444036232, guid: f4d369ba099821a41a7e353da8adbb34, type: 3}
+  - {fileID: 7593141306827406856, guid: e4dae70aa69c399419e95fb718e60ba2, type: 3}
+  - {fileID: 5600347076844282563, guid: 756dbd0161dcec748b95db3fcb84c48b, type: 3}
+  - {fileID: 2049180613814870122, guid: 79ec2be95a5ca5c499f466271432196c, type: 3}
+  - {fileID: 2114605729654265247, guid: 600e1ea3fc358a34d9b1985a48c9502b, type: 3}
+  - {fileID: 7482322589216929537, guid: e24c9a1a4fb8a7f45bf6ac000b47ec8f, type: 3}
+  - {fileID: 6713945884762889898, guid: cf8a9e44694c0c64c8589ffd5c664145, type: 3}
+  - {fileID: 5522183902407850147, guid: 736cfbc1aa82a4f44800507aed51fe1a, type: 3}
+  - {fileID: 3226765396728414341, guid: 75433554313639845880ecdd0398e73e, type: 3}
+  - {fileID: 4546435984887356586, guid: 363ba562eaf0ab34e8a242fcc39fb3a9, type: 3}
+  - {fileID: 4269837188588516451, guid: 5cfc4e27acf5ffa4e8acd372e005f5e9, type: 3}
+  - {fileID: 564660651871660406, guid: 7e657be82e059cd4fab722425109b320, type: 3}
+  - {fileID: 8109552845080039879, guid: d4fa6dbffce76d14e9e8d0125f41a08b, type: 3}
+  - {fileID: 3171483926963243647, guid: 579f1ddab810a25418b180b6a13e388b, type: 3}
+  - {fileID: 1433602116043693599, guid: db148d9ce685ac348a3f357d37453baa, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  timer: 10
+  start: 3.31
