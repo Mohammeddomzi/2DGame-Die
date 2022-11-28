@@ -9,14 +9,32 @@ public class playerMovement : MonoBehaviour
     public Rigidbody2D rb;
     Vector2 movement;
     public Animator animator;
+
     
 
     // Update is called once per frame
+
     void Update()
     {
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
-        animator.SetBool("isMoving",true);
+        if (transform.hasChanged){
+            animator.SetBool("isMoving",true);
+            transform.hasChanged = false;
+            }
+        else{
+            animator.SetBool("isMoving",false);
+        }
+        if(movement.x < 0){
+            transform.eulerAngles = new Vector3(0,0,0);
+        }
+        else{
+            transform.eulerAngles = new Vector3(0,180,0);
+        }
+        if(Input.GetMouseButtonDown(0)){
+            animator.SetTrigger("attack");
+        }
+        
 
    }
 

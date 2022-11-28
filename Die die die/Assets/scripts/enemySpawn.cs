@@ -21,7 +21,7 @@ public class enemySpawn : MonoBehaviour
         if(timer <= 0) {
             for(int i = 0; i < 3; i++) {
                 random = Random.Range(0,30);
-                Instantiate(enemies[random],new Vector3(Random.Range(-9,10),Random.Range(-5,6),0),Quaternion.identity);
+                Instantiate(enemies[26],new Vector3(Random.Range(-9,10),Random.Range(-5,6),0),Quaternion.identity);
             }
             timer = start;
         }
