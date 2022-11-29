@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class playerMovement : MonoBehaviour
@@ -31,9 +29,7 @@ public class playerMovement : MonoBehaviour
         else{
             transform.eulerAngles = new Vector3(0,180,0);
         }
-        if(Input.GetMouseButtonDown(0)){
-            animator.SetTrigger("attack");
-        }
+
         
 
    }

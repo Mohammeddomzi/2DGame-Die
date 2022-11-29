@@ -291,6 +291,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1411463050 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8542534268226948226, guid: d66363b19e3987641b16f07743bcbe27, type: 3}
+  m_PrefabInstance: {fileID: 1479567875}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1479567875
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -346,9 +351,43 @@ PrefabInstance:
       propertyPath: m_BodyType
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7227699546516415795, guid: d66363b19e3987641b16f07743bcbe27, type: 3}
+      propertyPath: start
+      value: 3.5
+      objectReference: {fileID: 0}
     - target: {fileID: 7227699546516415797, guid: d66363b19e3987641b16f07743bcbe27, type: 3}
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d66363b19e3987641b16f07743bcbe27, type: 3}
+--- !u!1 &1621551707 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7227699546516415797, guid: d66363b19e3987641b16f07743bcbe27, type: 3}
+  m_PrefabInstance: {fileID: 1479567875}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1621551708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1621551707}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea619f3cbb3b96a4a9e648381bab569f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 1621551712}
+  AttackPoint: {fileID: 1411463050}
+  attackRange: 0.88
+  EnemyLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  attackRate: 0.33
+  nextAttackTime: 0
+--- !u!95 &1621551712 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 7227699546516415793, guid: d66363b19e3987641b16f07743bcbe27, type: 3}
+  m_PrefabInstance: {fileID: 1479567875}
+  m_PrefabAsset: {fileID: 0}
